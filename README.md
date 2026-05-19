@@ -58,24 +58,7 @@ $$\mathbf{r}_{t+1} = \alpha \cdot \mathbf{M}_\tau \cdot \mathbf{r}_t + (1 - \alp
 
 ---
 
-## Repository layout
 
-```
-agent-ranking-algorithm/
-├── Agent ranking.ipynb              ← end-to-end walkthrough (open this first)
-├── agent_ranking_colab_codebases/   ← runnable Python implementations
-│   ├── harp.py                          core algorithm + CLI
-│   ├── research_agent_skill_rank.py     extended scorer (auth, cost, risk, memory)
-│   ├── real_usecase_mcp_router.py       MCP gateway prototype
-│   ├── requirements.txt
-│   └── README.md                        deeper deployment guide
-└── documentation/                   ← research writeups
-    ├── HARP alogrithm.pdf
-    ├── harp-complete-tutorial.md
-    ├── deep-research-report.md
-    ├── AgentRank and SkillRank for a Universal MCP Gateway.docx
-    └── HARP_Enterprise_Project_Report.docx
-```
 
 ## Quick start
 
